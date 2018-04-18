@@ -2,7 +2,7 @@
 
 Módulo para adicionar função de justificar texto no editor Atto para o Moodle.
 
-**Instalação** 
+##Instalação 
  
  ```
  git clone https://github.com/CoticEaDIFRN/moodle_atto_justify.git 
@@ -12,7 +12,7 @@ Módulo para adicionar função de justificar texto no editor Atto para o Moodle
   **ou** 
   ```
   - Baixar diretamente o arquivo moodle_atto_justify.zip
-  - Na seu projeto Moodle em  Configurações > Administração do Site > Notificações, o Moodle irar guiá-lo na instalação;
+  -  o Moodle irar guiá-lo na instalação;
   ``` 
  - Vá para `Administração do Site `> `Plug-ins `> `Editores de Texto` > `Configurações da Barra de Ferramentas Atto` e você deve visualizar o plugin Justify align, adicionado à lista de módulos instalados;
 
