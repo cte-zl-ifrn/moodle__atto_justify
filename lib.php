@@ -18,7 +18,7 @@
  * Atto text editor align plugin lib.
  *
  * @package    atto_justify
- * @copyright  2014 Frédéric Massart
+ * @copyright  2018 Kelson, Jovito
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
