@@ -5,7 +5,7 @@ Módulo para adicionar função de justificar texto no editor Atto para o Moodle
 ## Instalação
 
  ```
- git clone https://github.com/CoticEaDIFRN/moodle_atto_justify.git
+ git clone https://github.com/CoticEaDIFRN/moodle_atto_justify.git justify
 
  - Coloque a pasta do plugin em /lib/editor/atto/plugins do diretório do moodle;
  ```
