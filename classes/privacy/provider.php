@@ -15,13 +15,32 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'atto_align', language 'en'.
+ * Privacy Subsystem implementation for block_activity_modules.
  *
  * @package    atto_justify
  * @copyright  2018 Kelson, Jovito
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
-$string['justifyalign'] = 'Justify align';
-$string['pluginname'] = 'Justify align';
-$string['privacy:metadata'] = 'The atto_justify plugin does not store any personal data.';
+namespace atto_justify\privacy;
+
+defined('MOODLE_INTERNAL') || die();
+
+/**
+ * Privacy Subsystem for atto_justify implementing null_provider.
+ *
+ * @copyright  2018 Kelson, Jovito
+ * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ */
+class provider implements \core_privacy\local\metadata\null_provider {
+
+    /**
+     * Get the language string identifier with the component's language
+     * file to explain why this plugin stores no data.
+     *
+     * @return  string
+     */
+    public static function get_reason() : string {
+        return 'privacy:metadata';
+    }
+}
